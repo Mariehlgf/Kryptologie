@@ -2,7 +2,7 @@ package mono;
 
 public class Vigenere {
 
-	//public static char shift(char c, int k) {
+	public static char shift(char c, int k) {
 	    return (char) ((( c - 65 + k ) % 26 ) + 65 );
 	  }
 	  
